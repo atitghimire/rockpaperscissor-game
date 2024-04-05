@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+        background-image: url('images/bg1.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        color: #fff;
+    }
+
+h1{
+    background-color: #081b31;
+    color: #ffff;
+    height: 5rem;
+    line-height: 5rem; /*jati height teti line height bhae ramro ra trick ho to adjust content at center of the text
+     */
+}
+
+.choice{
+    height:165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 3rem;
+    margin-top: 5rem;
+
+}
+
+.score-board{
+    display: flex ;
+    justify-content:center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    margin-top: 5rem;
+    background-color: #081b31;
+    color: #ffff;
+    height: 5rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
